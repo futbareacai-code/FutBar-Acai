@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FutBar & Açaí - Vídeo</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+    }
+    video {
+      width: 90%;
+      max-width: 560px;
+      height: auto;
+    }
+    .button {
+      margin-top: 20px;
+    }
+    .connect-btn {
+      padding: 12px 25px;
+      font-size: 18px;
+      cursor: pointer;
+      background-color: #ff0000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+    .connect-btn:hover {
+      background-color: #cc0000;
+    }
+  </style>
+</head>
+<body>
+  <h2>Assista ao vídeo antes de acessar a internet</h2>
+  <video src="video.mp4" controls autoplay></video>
+  <form method="post" class="button">
+    <input type="submit" value="Conectar" class="connect-btn">
+  </form>
+</body>
+</html>
